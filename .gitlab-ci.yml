@@ -1,0 +1,39 @@
+image: java:8-jdk
+
+stages:
+- build
+
+before_script:
+- echo "Start Continuous IntegrationI"
+
+cache:
+  paths:
+  - .gradle/wrapper
+  - .gradle/caches
+
+build:
+  stage: build
+  script:
+  - ./gradlew assemble
+  artifacts:
+    paths:
+    - build/libs/*.jar
+    expire_in: 1 week
+
+test:
+  stage: build
+  script:
+  - ./gradlew check
+
+pages:
+  stage: build
+  script:
+  - ./gradlew createJavaDoc
+  artifacts:
+      paths:
+      - public
+  only:
+  - develop
+
+after_script:
+- echo "End Continuous Integration"

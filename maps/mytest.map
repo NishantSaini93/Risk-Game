@@ -1,0 +1,11 @@
+[CONTINENTS]
+Asia=3
+Europe=6
+
+[TERRITORIES]
+Nepal, Asia, India, China,Spain
+India, Asia,Nepal,China
+China,Asia,India,Nepal
+France,Europe,Italy
+Italy, Europe,France,Spain
+Spain,Europe, Italy, Nepal

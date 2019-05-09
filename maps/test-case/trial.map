@@ -1,0 +1,7 @@
+[CONTINENTS]
+Asia=4
+
+[TERRITORIES]
+Nepal,Asia,China
+India,Asia,China
+China,Asia,India,Nepal

@@ -1,0 +1,14 @@
+[CONTINENTS]
+Asia=5
+Europe=7
+
+[TERRITORIES]
+Nepal,Asia,India,China,Spain,France
+India,Asia,Nepal
+China,Asia,Nepal,Italy
+Spain,Europe,Nepal,Portugal,Germany
+Portugal,Europe,Spain,Italy,Germany,France
+Italy,Europe,Portugal,China,Germany,France
+Germany,Europe,Spain,Portugal,Italy
+France,Europe,Italy,Nepal,Portugal
+

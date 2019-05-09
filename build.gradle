@@ -1,0 +1,37 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.7'
+    testCompile 'org.mockito:mockito-core:2.7.22'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+task createJavadoc(type: Javadoc) {
+    source = sourceSets.main.allJava
+    source += sourceSets.test.allJava
+    options.memberLevel = JavadocMemberLevel.PRIVATE
+    classpath = configurations.compile
+    classpath += configurations.testCompile
+    destinationDir = file("./public/")
+}

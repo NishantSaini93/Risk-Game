@@ -1,0 +1,51 @@
+[CONTINENTS]
+Northern Africa=4
+Southern Africa=3
+Western Africa=7
+Eastern Africa=3
+Central Africa=6
+The Horn=3
+The Congo=5
+
+[TERRITORIES]
+Morocco,Northern Africa,Western Sahara,Algeria
+Algeria,Northern Africa,Morocco,Western Sahara,Mauritania,Mali,Niger,Libya,Tunisia
+Tunisia,Northern Africa,Algeria,Libya
+Libya,Northern Africa,North Sudan,Tunisia,Algeria,Niger,Chad,Egypt
+Egypt,Northern Africa,Libya,North Sudan
+Western Sahara,Western Africa,Morocco,Algeria,Mauritania
+Mauritania,Western Africa,Western Sahara,Algeria,Mali,Senegal
+Senegal,Western Africa,Mauritania,Mali,Guinea
+Mali,Western Africa,Senegal,Mauritania,Algeria,Niger,Burkina Faso,Ivory Coast,Guinea
+Guinea,Western Africa,Senegal,Mali,Ivory Coast,Sierra Leone,Liberia
+Sierra Leone,Western Africa,Guinea,Liberia
+Liberia,Western Africa,Sierra Leone,Guinea,Ivory Coast
+Ivory Coast,Western Africa,Liberia,Guinea,Mali,Burkina Faso,Ghana
+Burkina Faso,Western Africa,Mali,Niger,Benin,Ghana,Ivory Coast
+Benin,Western Africa,Burkina Faso,Niger,Nigeria,Ghana
+Ghana,Western Africa,Burkina Faso,Benin,Ivory Coast
+Niger,Central Africa,Mali,Algeria,Libya,Chad,Nigeria,Benin,Burkina Faso
+Nigeria,Central Africa,Niger,Chad,Cameroon,Benin
+Chad,Central Africa,Libya,North Sudan,South Sudan,Central African Rep.,Cameroon,Nigeria,Niger
+Cameroon,Central Africa,Nigeria,Chad,Central African Rep.,Rep. of the Congo,Gabon
+Central African Rep.,Central Africa,Chad,South Sudan,D.R.O.T. Congo,Rep. of the Congo,Cameroon
+North Sudan,The Horn,Egypt,Libya,Eritrea,Ethiopia,South Sudan,Chad
+South Sudan,The Horn,North Sudan,Ethiopia,Kenya,Uganda,D.R.O.T. Congo,Central African Rep.,Chad
+Eritrea,The Horn,North Sudan,Somalia,Ethiopia
+Ethiopia,The Horn,Eritrea,Somalia,Kenya,South Sudan,North Sudan
+Somalia,The Horn,Eritrea,Ethiopia,Kenya
+Gabon,The Congo,Cameroon,Rep. of the Congo
+Rep. of the Congo,The Congo,Cameroon,Central African Rep.,D.R.O.T. Congo,Gabon
+D.R.O.T. Congo,The Congo,Central African Rep.,South Sudan,Uganda,Tanzania,Zambia,Angola,Rep. of the Congo
+Angola,The Congo,D.R.O.T. Congo,Zambia,Namibia,Botswana
+Zambia,The Congo,D.R.O.T. Congo,Tanzania,Malawi,Mozambique,Zimbabwe,Botswana,Angola
+Uganda,Eastern Africa,South Sudan,Kenya,Tanzania,D.R.O.T. Congo
+Kenya,Eastern Africa,South Sudan,Ethiopia,Somalia,Tanzania,Uganda
+Tanzania,Eastern Africa,Uganda,Kenya,Mozambique,Malawi,D.R.O.T. Congo,Zambia
+Malawi,Eastern Africa,Tanzania,Mozambique,Zambia
+Namibia,Southern Africa,Angola,Botswana,South Africa
+Botswana,Southern Africa,Angola,Zambia,Zimbabwe,South Africa,Namibia
+Zimbabwe,Southern Africa,Zambia,Mozambique,South Africa,Botswana
+Mozambique,Southern Africa,Tanzania,Malawi,Madagascar,Zambia,Zimbabwe,South Africa
+Madagascar,Southern Africa,Mozambique
+South Africa,Southern Africa,Namibia,Botswana,Zimbabwe,Mozambique

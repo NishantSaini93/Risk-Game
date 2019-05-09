@@ -1,0 +1,10 @@
+[CONTINENTS]
+a = 100
+b = 100
+c = 100
+
+[TERRITORIES]
+x,a,y,z,v
+y,b,x,v
+z,c,x
+v,a,y,x

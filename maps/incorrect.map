@@ -1,0 +1,8 @@
+[CONTINENTS]
+X = 5
+Y = 5
+
+[TERRITORIES]
+A,X,B,C
+B,Y,C
+C,Y,B,A

@@ -1,0 +1,15 @@
+[CONTINENTS]
+Asia=5
+Europe=6
+Africa=4
+
+[TERRITORIES]
+Nepal,Asia,India,China,Nigeria,Congo
+India,Asia,Nepal,China,France
+China,Asia,Nepal,India,Spain
+France,Europe,Spain,India,Sudan
+Spain,Europe,France,Italy,China,Nigeria
+Italy,Europe,Spain,Congo
+Congo,Africa,Italy,Nepal,Sudan
+Sudan,Africa,France,Congo,Nigeria
+Nigeria,Africa,Spain, Nepal,Sudan
