@@ -1,5 +1,9 @@
 # README
+Editor used:Intellij
 
+Developed a desktop game with the help of the MVC model and utilizing different design patterns such as singleton,strategy, etc.
+
+Strategy pattern allowed the game to be played manually, against computer or game can go on its own.In addition to that, it also helped to create computer players with different strategies by utilizing which they play the game. 
 
 ## Coding Conventions
 1. Indentation
