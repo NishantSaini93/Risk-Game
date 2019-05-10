@@ -29,15 +29,4 @@ Strategy pattern allowed the game to be played manually, against computer or gam
     4. Controller : Controller Classes containing the flow of the application and user interactions.
     5. Utility : Helper files for handling maps
     
-    
-## Git Conventions
-1. Branch Name
-    1. {name_initials}_{feature_title} eg: jm_feature1 / ns_feature2
-2. Commits
-    1. Commit Description should be clear and concise in a sentence
-3. Merge Request
-    1. All merge requests should be made for develop branch
-    2. should pass the build and test phases in CI
-4. Merge Request needs to be approved by someone other than the creator
-5. One Branch per feature
-   
+
